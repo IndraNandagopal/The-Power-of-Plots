@@ -21,28 +21,28 @@ In this study, 249 mice identified with SCC tumor growth were treated with a var
 Created two summary statistics DataFrames:
 
     * For the first table, used the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This resulted in five unique series objects. Combined these objects into a single summary statistics DataFrames.
-![Summary_Statistics_Method1](Pymaceuticals\output/Summary_Statistics_Method1.png)
+![Summary_Statistics_Method1](Pymaceuticals/output/Summary_Statistics_Method1.png)
 
     * For the second table, used the `agg` method to produce the same summary statistics table by using a single line of code.
-![Summary_Statistics_Method2](Pymaceuticals\output/Summary_Statistics_Method2.png)
+![Summary_Statistics_Method2](Pymaceuticals/output/Summary_Statistics_Method2.png)
 
 ### Create Bar Charts and a Pie Charts
 
 1. Generated two bar plots. Both plots are identical and showed the total number of timepoints for all mice tested for each drug regimen throughout the course of the study.
 
     * Created the first bar plot by using Pandas's `DataFrame.plot()` method.
-![bar_plot_usingDFPlot](Pymaceuticals\output\bar_plot_usingDFPlot.png)
+![bar_plot_usingDFPlot](Pymaceuticals/output/bar_plot_usingDFPlot.png)
 
     * Created the second bar plot by using Matplotlib's `pyplot` methods.
-![bar_plot_usingPyPlot](Pymaceuticals\output\bar_plot_usingPyPlot.png)
+![bar_plot_usingPyPlot](Pymaceuticals/output/bar_plot_usingPyplot.png)
 
 2. Generated two pie plots. Both plots are identical and showed the distribution of female or male mice in the study.
 
     * Created the first pie plot by using both Pandas's `DataFrame.plot()`.
-![pie_plot_using_pandas](Pymaceuticals\output\pie_plot_using_pandas.png)
+![pie_plot_using_pandas](Pymaceuticals/output/pie_plot_using_pandas.png)
 
     * Created the second pie plot by using Matplotlib's `pyplot` methods.
-![pie_plot_using_pyplot](Pymaceuticals\output\pie_plot_using_pyplot.png)
+![pie_plot_using_pyplot](Pymaceuticals/output/pie_plot_using_pyplot.png)
 
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot 
 
@@ -57,22 +57,22 @@ Created two summary statistics DataFrames:
     * Determined the outliers by using the upper and lower bounds, and then printed the results.
   
 2. Using Matplotlib, generated a box plot of the final tumor volume for all four treatment regimens. Highlighted the potential outliers in the plot by changing their color and style.
-![box_plot](Pymaceuticals\output\box_plot.png)
+![box_plot](Pymaceuticals/output/box_plot.png)
 
 ### Create a Line Plot and a Scatter Plot
 
 1. Selected a mouse that was treated with Capomulin and generated a line plot of tumor volume vs. time point for that mouse.
-![line_plot](Pymaceuticals\output\line_plot.png)
+![line_plot](Pymaceuticals/output/line_plot.png)
 
 2. Generated a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
-![scatter_plot](Pymaceuticals\output\scatter_plot.png)
+![scatter_plot](Pymaceuticals/output/scatter_plot.png)
 
 ### Calculate Correlation and Regression
 
 1. Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. 
 
 2. Ploted the linear regression model on top of the previous scatter plot.
-![regression_plot](Pymaceuticals\output\regression_plot.png)
+![regression_plot](Pymaceuticals/output/regression_plot.png)
 
 ### Final Analysis
 
